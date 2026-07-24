@@ -1,1 +1,43 @@
+# N-Queens Problem Using Genetic Algorithm
+
+This project solves the classic **N-Queens problem** using a **Genetic Algorithm (GA)** in Python.  
+It generates a population of candidate solutions, evaluates them using a fitness function, and evolves them over multiple generations until a valid board arrangement is found.
+
+The project also visualizes the final solution using `matplotlib`.
+
+## Project Overview
+
+The **N-Queens problem** is a well-known combinatorial optimization problem in computer science and artificial intelligence.
+
+The goal is to place `N` queens on an `N x N` chessboard such that:
+
+- No two queens are in the same row
+- No two queens are in the same column
+- No two queens are on the same diagonal
+
+This implementation uses a **Genetic Algorithm**, which is inspired by the principles of natural selection and evolution.
+
+## How the Genetic Algorithm Works
+
+The algorithm follows these main steps:
+
+1. Generate an initial random population
+2. Evaluate the fitness of each candidate
+3. Select the best half of the population
+4. Apply crossover to generate offspring
+5. Apply mutation to introduce variation
+6. Repeat until a conflict-free solution is found
+
+## Technologies Used
+
+- Python
+- `random`
+- `matplotlib`
+
+## Parameters
+
+The main parameters used in the project are:
+```python
+n = 8      # Number of queens / size of the board
+p = 500    # Population size
 
