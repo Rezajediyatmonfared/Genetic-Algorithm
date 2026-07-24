@@ -1,4 +1,4 @@
-# N-Queens Problem Using Genetic Algorithm
+## N-Queens Problem Using Genetic Algorithm
 
 This project solves the classic **N-Queens problem** using a **Genetic Algorithm (GA)** in Python.  
 It generates a population of candidate solutions, evaluates them using a fitness function, and evolves them over multiple generations until a valid board arrangement is found.
